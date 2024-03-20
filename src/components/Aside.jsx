@@ -7,10 +7,12 @@ import badge from "../assets/aside/Badge.png";
 import octagon from "../assets/aside/octagon.png";
 import triangle from "../assets/aside/triangle.png";
 import pic from "../assets/aside/plus-circle.png";
+import avatar from "../assets/aside/Avatar1.png";
+import settings from "../assets/aside/settings.png";
 
 const Aside = () => {
  return (
-    <div className='w-1/4 bg-black rounded-3xl ml-4 h-[765px] mt-5'>
+    <div className='w-80 bg-black rounded-3xl ml-4 h-full mt-5'>
       <div className='w-[312px] h-24 p-6 border-b border-neutral-900 justify-between items-center inline-flex'>
         <div className="flex gap-3">
           <img src={img} alt='' className='h-12 w-12' />
@@ -88,6 +90,23 @@ const Aside = () => {
               <div className="text-center text-neutral-500 text-sm font-semibold  leading-tight tracking-tight">Add new project</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="w-80 h-24 p-2 flex-col inline-flex">
+        <div className=" p-4  rounded-2xl border-t border-white border-opacity-10 justify-between items-center inline-flex">
+          <div className="justify-start items-center gap-4 flex">
+            <div className="w-16 h-16 flex">
+            <img src={avatar} alt="" className='mb-3 ' />
+              
+            </div>
+            <div className="flex-col justify-start items-start gap-1 inline-flex">
+              <div className="text-center text-white text-base font-semibold font-['Plus Jakarta Sans'] leading-normal tracking-tight">Ryan Lee</div>
+              <div className="text-center text-lime-200 text-xs font-medium font-['Plus Jakarta Sans'] leading-none tracking-tight">Premium</div>
+            </div>
+          </div>
+          <div className=" px-1 py-0.5 justify-center items-center flex" />
+          <img src={settings} alt="" className=' w-6 h-6' />
         </div>
       </div>
       
