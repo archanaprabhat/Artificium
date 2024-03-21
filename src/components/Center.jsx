@@ -191,7 +191,10 @@ function Center() {
   </div>
   <div className="grow shrink basis-0 h-12 py-3 justify-start items-start gap-2 flex">
   
-  <input className="text-white font-semibold w-full  leading-normal tracking-tight bg-black border-none focus:ring-0 focus:border-none focus:border-transparent focus:outline-none placeholder-text-neutral-700" placeholder="You can ask me anything! I am here to help." />
+  <input
+ className="text-white font-semibold w-full leading-normal tracking-tight bg-black border-none focus:ring-0 focus:border-none focus:border-transparent focus:outline-none placeholder-text-neutral-700 animate-typing overflow-hidden"
+ placeholder="You can ask me anything! I am here to help."
+/>
   </div>
   <div className="w-16 h-16 px-4 py-2 rounded-xl justify-center items-center gap-3 flex">
     <div className="w-6 h-6 px-0.5 py-0.5 justify-center items-center flex" />
