@@ -8,7 +8,7 @@ import folder from "../assets/header/Tab3.png";
 
 function Header() {
   return (
-    <div className="w-full mr-0 mt-5 ml-5  ">
+    <div className="w-full    ">
     <div className="w-full rounded-3xl bg-black h-44"> 
       <div className='flex justify-between items-center w-full h-24'>
         <div className=' flex flex-col items-start'>

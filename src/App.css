@@ -1,5 +1,9 @@
-
+*{
+  padding: 0;
+  margin: 0;
+}
 @layer utilities {
+
   .gradient {
      background: linear-gradient(90deg, blue, red);
      background-size: 200% 200%;
