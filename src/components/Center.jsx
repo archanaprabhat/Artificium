@@ -25,7 +25,7 @@ function Center() {
           <div className='grow shrink basis-0 flex-col justify-start items-start gap-8 inline-flex'>
             <div className='self-stretch h-24 flex-col justify-center items-center gap-4 flex'>
               <div className='w-12 h-12   rounded-3xl shadow border-t border-white border-opacity-10 justify-center items-center gap-4 inline-flex'>
-                <img src={chat} alt='' className='w-full h-full mt-4' />
+                <img src={chat} alt='' className='w-full h-full mt-4 select-none' />
               </div>
               <div className='self-stretch text-center text-white text-lg font-semibold  leading-7 tracking-tight'>
                 Creative Assets
@@ -40,7 +40,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -51,7 +51,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -62,7 +62,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -73,7 +73,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ function Center() {
           <div className='grow shrink basis-0 flex-col justify-start items-start gap-8 desktop:inline-flex hidden xs:block'>
             <div className='self-stretch h-24 flex-col justify-center items-center gap-4 flex'>
               <div className='w-12 h-12   rounded-3xl shadow border-t border-white border-opacity-10 justify-center items-center gap-4 inline-flex'>
-                <img src={code} alt='' className='w-full h-full mt-4' />
+                <img src={code} alt='' className='w-full h-full mt-4 select-none' />
               </div>
               <div className="self-stretch text-center text-white text-lg font-semibold font-['Plus Jakarta Sans'] leading-7 tracking-tight">
                 Developer Tools
@@ -96,7 +96,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -107,7 +107,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -118,7 +118,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -129,7 +129,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
             </div>
@@ -137,7 +137,7 @@ function Center() {
           <div className='grow shrink basis-0 flex-col justify-start items-start gap-8  desktop:inline-flex hidden sm:block'>
             <div className='self-stretch h-24 flex-col justify-center items-center gap-4 flex'>
               <div className='w-12 h-12   rounded-3xl shadow border-t border-white border-opacity-10 justify-center items-center gap-4 inline-flex'>
-                <img src={pencil} alt='' className='w-full h-full mt-4' />
+                <img src={pencil} alt='' className='w-full h-full mt-4 select-none' />
               </div>
               <div className="self-stretch text-center text-white text-lg font-semibold font-['Plus Jakarta Sans'] leading-7 tracking-tight ">
                 Content Creation
@@ -152,7 +152,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -163,7 +163,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -174,7 +174,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -185,7 +185,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
             </div>
@@ -193,7 +193,7 @@ function Center() {
           <div className='grow shrink basis-0 flex-col justify-start items-start gap-8 laptop:inline-flex hidden destop:block'>
             <div className='self-stretch h-24 flex-col justify-center items-center gap-4 flex'>
               <div className='w-12 h-12   rounded-3xl shadow border-t border-white border-opacity-10 justify-center items-center gap-4 inline-flex'>
-                <img src={bulb} alt='' className='w-full h-full mt-4' />
+                <img src={bulb} alt='' className='w-full h-full mt-4 select-none' />
               </div>
               <div className="self-stretch text-center text-white text-lg font-semibold font-['Plus Jakarta Sans'] leading-7 tracking-tight">
                 Idea Generation
@@ -208,7 +208,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -219,7 +219,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -230,7 +230,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
               <div className='self-stretch p-4 bg-gradient-to-r from-neutral-900 to-gray-800 hover:from-gray-800 hover:to-neutral-900 rounded-xl border-t border-white border-opacity-10 justify-start items-center gap-2 inline-flex group'>
@@ -241,7 +241,7 @@ function Center() {
                 <img
                   src={arrow}
                   alt=''
-                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150'
+                  className='w-4 h-4 transition-transform duration-200 ease-in-out transform group-hover:scale-150 select-none'
                 />
               </div>
             </div>
@@ -256,7 +256,7 @@ function Center() {
           <img
             src={micro}
             alt=''
-            className='h-full w-full object-contain -ml-14'
+            className='h-full w-full object-contain -ml-14 select-none'
           />
         </div>
         <div className='grow shrink basis-0 h-12 py-3 justify-start items-start gap-2 flex'>
@@ -267,11 +267,11 @@ function Center() {
         </div>
         <div className='w-16 h-16 px-4 py-2 rounded-xl justify-center items-center gap-3 flex'>
           <div className='w-6 h-6 px-0.5 py-0.5 justify-center items-center flex' />
-          <img src={attachment} alt='' />
+          <img src={attachment} alt='' className="select-none"/>
         </div>
         <div className='w-16 h-16 px-4 py-2 bg-zinc-900 rounded-xl justify-center items-center gap-3 flex'>
           <div className='w-6 h-6 p-1 justify-center items-center flex' />
-          <img src={plane} alt='' className='-ml-4' />
+          <img src={plane} alt='' className='-ml-4 select-none' />
         </div>
       </div>
     </div>

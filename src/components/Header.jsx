@@ -22,17 +22,17 @@ function Header() {
         <img
           src={img1}
           alt=''
-          className=' w-56 h-56 object-contain '
+          className=' w-56 h-56 object-contain select-none'
         />
         <img
           src={share}
           alt=''
-          className=' w-28 h-28 object-contain '
+          className=' w-28 h-28 object-contain select-none '
         />
         <img
           src={edit}
           alt=''
-          className=' w-10 h-10 object-contain '
+          className=' w-10 h-10 object-contain select-none'
         />
         </div>
       </div>
@@ -43,18 +43,18 @@ function Header() {
         <img
           src={arti}
           alt=''
-          className=' w-40 h-40 object-contain -ml-28 xxs:ml-0'
+          className=' w-40 h-40 object-contain -ml-28 xxs:ml-0 select-none'
         />
        
         <img
           src={chat}
           alt=''
-          className=' w-24 h-24 object-contain mb-7 hidden xxs:block'
+          className=' w-24 h-24 object-contain mb-7 hidden xxs:block select-none'
         />
         <img
           src={folder}
           alt=''
-          className=' w-28 h-28 object-contain mb-7 hidden xxs:block'
+          className=' w-28 h-28 object-contain mb-7 hidden xxs:block select-none'
         />
         </div>
       </div>
