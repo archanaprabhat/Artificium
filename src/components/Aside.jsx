@@ -32,7 +32,7 @@ const Aside = () => {
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
             <div className="flex-grow flex-shrink-0 flex-basis-0 justify-start items-center gap-0 flex">
               <div className="w-10 h-10 "><img src={search} alt="" className='object-cover -ml-3 mt-2' /></div>
-              <div className="text-center text-gray-200 text-sm font-semibold font-sans leading-tight tracking-tight">Search</div>
+              <div className="text-center text-gray-200 text-sm font-semibold font-sans leading-tight cursor-pointer tracking-tight">Search</div>
             </div>
             <div className=" rounded shadow border border-gray-950 border-opacity-55 justify-end flex">
               <div className="text-center "><img src={badge} alt="" className='w-15 h-10' /></div>
@@ -41,7 +41,7 @@ const Aside = () => {
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
             <div className="flex-grow flex-shrink-0 flex-basis-0 justify-start items-center gap-0 flex">
               <div className="w-10 h-10 "><img src={bill} alt="" className='object-cover -ml-3 mt-2' /></div>
-              <div className="text-center text-gray-200 text-sm font-semibold font-sans leading-tight tracking-tight">Billing</div>
+              <div className="text-center text-gray-200 text-sm font-semibold font-sans leading-tight cursor-pointer tracking-tight">Billing</div>
             </div>
           </div>
         </div>
@@ -57,14 +57,14 @@ const Aside = () => {
               <div className="w-5 h-5 p-0.5 shadow justify-center items-center flex">
                 <div className="w-3.5 h-3.5 rounded-sm border border-lime-200" />
               </div>
-              <div className="text-center text-gray-200 text-sm font-semibold  leading-tight tracking-tight">Orbital Oddysey</div>
+              <div className="text-center text-gray-200 text-sm font-semibold cursor-pointer  leading-tight tracking-tight">Orbital Oddysey</div>
             </div>
           </div>
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
             <div className="grow shrink basis-0 h-5 justify-start items-center gap-4 flex">
               <div className="w-5 h-5 px-px pt-px pb-0.5 shadow justify-center items-center flex" />
               <img src={triangle} alt="" className='w-10 h-10 -ml-12 mt-4' />
-              <div className="text-center text-gray-200 text-sm font-semibold  leading-tight tracking-tight">Digital Product Launch</div>
+              <div className="text-center text-gray-200 text-sm font-semibold cursor-pointer leading-tight tracking-tight">Digital Product Launch</div>
             </div>
           </div>
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
@@ -72,14 +72,14 @@ const Aside = () => {
               <div className="w-5 h-5 p-0.5 shadow justify-center items-center flex">
                 <div className="w-3.5 h-3.5 rounded-sm border border-orange-500" />
               </div>
-              <div className="text-center text-gray-200 text-sm font-semibold  leading-tight tracking-tight">Brand Refresh</div>
+              <div className="text-center text-gray-200 text-sm font-semibold cursor-pointer leading-tight tracking-tight">Brand Refresh</div>
             </div>
           </div>
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
             <div className="grow shrink basis-0 h-5 justify-start items-center gap-4 flex">
               <div className="w-5 h-5 p-0.5 shadow justify-center items-center flex" />
               <img src={octagon} alt="" className='w-10 h-10 -ml-12 mt-4' />
-              <div className="text-center text-gray-200 text-sm font-semibold  leading-tight tracking-tight">Social Media Strategy</div>
+              <div className="text-center text-gray-200 text-sm font-semibold cursor-pointer leading-tight tracking-tight">Social Media Strategy</div>
             </div>
           </div>
           <div className="w-72 h-12 px-4 py-3.5 rounded-lg justify-start items-center gap-4 inline-flex">
@@ -87,7 +87,7 @@ const Aside = () => {
               <div className="w-5 h-5 p-0.5 justify-center items-center flex" />
              
               
-              <div className="text-center text-neutral-500 text-sm font-semibold  leading-tight tracking-tight">Add new project</div>
+              <div className="text-center text-neutral-500 text-sm font-semibold cursor-pointer  leading-tight tracking-tight">Add new project</div>
             </div>
           </div>
         </div>

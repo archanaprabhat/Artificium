@@ -1,0 +1,15 @@
+
+@layer utilities {
+  .gradient {
+     background: linear-gradient(90deg, blue, red);
+     background-size: 200% 200%;
+  }
+ 
+  .element-to-rotate {
+     animation: gradientChange 4s ease infinite;
+  }
+ 
+  .element-to-rotate:hover {
+     background-position: 100%;
+  }
+ }

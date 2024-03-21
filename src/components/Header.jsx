@@ -8,16 +8,16 @@ import folder from "../assets/header/Tab3.png";
 
 function Header() {
   return (
-    <div className="w-full mr-5 mt-5 ml-5 ">
-    <div className="w-full rounded-3xl bg-black "> 
-      <div className='flex justify-between items-center w-full h-32'>
+    <div className="w-full mr-0 mt-5 ml-5  ">
+    <div className="w-full rounded-3xl bg-black h-44"> 
+      <div className='flex justify-between items-center w-full h-24'>
         <div className=' flex flex-col items-start'>
-          <div className='text-xl font-medium pl-8 '>Orbital Oddysey</div>
+        <div className='text-xl font-medium pl-8 mb-1'>Orbital Oddysey</div>
 
-          <div className='text-gray-500 pl-8'>
-            Marketing Campaign for a new TV series Launch
-          </div>
-        </div>
+<div className='text-gray-500 pl-8'>
+  Marketing Campaign for a new TV series Launch
+</div>
+</div>
         <div className="flex justify-evenly items-center w-1/2">
         <img
           src={img1}
