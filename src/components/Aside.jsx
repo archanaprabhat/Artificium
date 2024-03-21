@@ -12,7 +12,7 @@ import settings from "../assets/aside/settings.png";
 
 const Aside = () => {
  return (
-    <div className='w-80 bg-black rounded-3xl ml-4 self-stretch my-4 flex flex-col items-stretch justify-start overflow-hidden'>
+    <div className='w-80 bg-black rounded-3xl ml-4 self-stretch my-4 flex flex-col items-stretch justify-start overflow-hidden hidden laptop:block'>
       <div className='w-[312px] h-24 p-6 border-b border-neutral-900 justify-between items-center inline-flex'>
         <div className="flex gap-3">
           <img src={img} alt='' className='h-12 w-12' />

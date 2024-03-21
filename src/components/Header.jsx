@@ -18,7 +18,7 @@ function Header() {
   Marketing Campaign for a new TV series Launch
 </div>
 </div>
-        <div className="flex justify-evenly items-center w-1/2">
+        <div className="hidden sm:flex flex-col sm:flex-row justify-evenly items-center w-1/2 ">
         <img
           src={img1}
           alt=''
@@ -38,23 +38,23 @@ function Header() {
       </div>
       <hr className="border-gray-800" />
     <div className="text-gray-500 m-5 ">
-    <div className="flex justify-evenly items-center w-96 h-16 pt-7">
+    <div className="flex justify-evenly items-center w-96 h-16 pt-7 ">
     
         <img
           src={arti}
           alt=''
-          className=' w-40 h-40 object-contain '
+          className=' w-40 h-40 object-contain -ml-28 xxs:ml-0'
         />
        
         <img
           src={chat}
           alt=''
-          className=' w-24 h-24 object-contain mb-7'
+          className=' w-24 h-24 object-contain mb-7 hidden xxs:block'
         />
         <img
           src={folder}
           alt=''
-          className=' w-28 h-28 object-contain mb-7'
+          className=' w-28 h-28 object-contain mb-7 hidden xxs:block'
         />
         </div>
       </div>
