@@ -12,7 +12,7 @@ import settings from "../assets/aside/settings.png";
 
 const Aside = () => {
  return (
-    <div className='w-80 bg-black rounded-3xl ml-4 self-stretch my-4'>
+    <div className='w-80 bg-black rounded-3xl ml-4 self-stretch my-4 flex flex-col items-stretch justify-start overflow-hidden'>
       <div className='w-[312px] h-24 p-6 border-b border-neutral-900 justify-between items-center inline-flex'>
         <div className="flex gap-3">
           <img src={img} alt='' className='h-12 w-12' />
@@ -47,7 +47,7 @@ const Aside = () => {
         </div>
       </div>
       
-      <div className="w-80 h-96 px-2 py-6 flex-col justify-start items-start gap-6 inline-flex">
+      <div className="w-80  px-2 py-6 flex-col justify-start items-start gap-6 inline-flex">
         <div className="self-stretch px-4 justify-start items-start gap-2 inline-flex">
           <div className="text-neutral-500 text-xs font-semibold  leading-none tracking-tight">PROJECTS</div>
         </div>
@@ -93,7 +93,7 @@ const Aside = () => {
         </div>
       </div>
 
-      <div className="w-80 h-24 p-2 flex-col inline-flex">
+      <div className="w-80  px-2 flex-col inline-flex mt-auto">
         <div className=" p-4  rounded-2xl border-t border-white border-opacity-10 justify-between items-center inline-flex">
           <div className="justify-start items-center gap-4 flex">
             <div className="w-16 h-16 flex">
